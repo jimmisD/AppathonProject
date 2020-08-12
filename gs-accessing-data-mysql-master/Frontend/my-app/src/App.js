@@ -1,6 +1,8 @@
 import React from 'react';
 import { render } from "react-dom";
-import Data from './Data';
+import DataDoctor from './DataDoctor';
+import DataPatient from './DataPatient';
+import DataCure from './DataCure';
 
 import Tabs from './Tabs';
 require('./styles.css');
@@ -11,18 +13,20 @@ function App() {
       <h1 class="centre">Data Categories</h1>
      <Tabs>
       <div label="Doctors">
-        <Data />
+        <DataDoctor />
       </div>
-      <div label="Patients">
-        <Data />
+      <div label="COVID Patients">
+        <DataPatient />
       </div>
-      <div label="Treatments">
-        <Data />
+      <div label="Treatment Progress">
+        <DataCure />
       </div>
     </Tabs>
     </div>
   );
 }
+
+
 
 const container = document.createElement('div');
 document.body.appendChild(container);

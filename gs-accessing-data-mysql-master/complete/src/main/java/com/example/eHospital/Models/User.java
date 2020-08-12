@@ -21,6 +21,17 @@ public class User {
 
 	private String phone_number;
 
+	/* private User() {}
+
+	public User(Integer id, String first_name, String last_name, String job, String email, String phone_number) {
+		this.id = id;
+		this.first_name = first_name;
+		this.last_name = last_name;
+		this.job = job;
+		this.email = email;
+		this.phone_number = phone_number;
+	} */
+
 	public Integer getId() {
 		return id;
 	}
