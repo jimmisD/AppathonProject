@@ -39,7 +39,7 @@ class DataCure extends React.Component {
                 <tr>
                     <th>Id</th>
                     <th>Patient Name</th>
-                    <th>Doctor Name</th>
+                    <th>Doctor Repsonsible</th>
                     <th>Drug Used</th>
                     <th>Cure Attempt</th>
                     <th>Result</th>
